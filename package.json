@@ -3,7 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fremtind/jkl-accordion-react": "^7.0.2",
+    "@fremtind/jkl-alert-message-react": "^8.0.2",
+    "@fremtind/jkl-button-react": "^11.0.2",
+    "@fremtind/jkl-card-react": "^6.0.2",
+    "@fremtind/jkl-checkbox": "^7.0.1",
     "@fremtind/jkl-core": "^10.0.1",
+    "@fremtind/jkl-datepicker-react": "^11.0.3",
+    "@fremtind/jkl-description-list-react": "^5.0.1",
+    "@fremtind/jkl-field-group-react": "^6.0.1",
+    "@fremtind/jkl-formatters-util": "^2.3.2",
+    "@fremtind/jkl-hamburger-react": "^9.0.2",
+    "@fremtind/jkl-icon-button-react": "^1.0.2",
+    "@fremtind/jkl-icons-react": "^5.0.1",
+    "@fremtind/jkl-image-react": "^3.0.2",
+    "@fremtind/jkl-list-react": "^7.0.1",
+    "@fremtind/jkl-message-box-react": "^7.0.2",
+    "@fremtind/jkl-summary-table-react": "^7.0.1",
+    "@fremtind/jkl-table-react": "^8.0.2",
+    "@fremtind/jkl-tabs-react": "^1.3.25",
+    "@fremtind/jkl-text-input-react": "^10.0.3",
     "@fremtind/jkl-webfonts": "^2.0.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -25,7 +44,9 @@
       "react-app/jest"
     ]
   },
-  "browserslist": ["extends @fremtind/browserslist-config-jkl"],
+  "browserslist": [
+    "extends @fremtind/browserslist-config-jkl"
+  ],
   "devDependencies": {
     "@fremtind/browserslist-config-jkl": "^1.0.0"
   }
