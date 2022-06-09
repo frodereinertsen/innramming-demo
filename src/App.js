@@ -1,31 +1,31 @@
-import "@fremtind/jkl-core/core.min.css";
+import '@fremtind/jkl-core/core.min.css';
 
-import {Layout} from "./layout/Layout";
-import {TableDemo} from "./demos/TableDemo";
-import {IconDemo} from "./demos/IconDemo";
-import {ButtonDemo} from "./demos/ButtonDemo";
-import {DescriptionListDemo} from "./demos/DescriptionListDemo";
-import {FieldGroupDemo} from "./demos/FieldGroupDemo";
-import {ListDemo} from "./demos/ListDemo";
+import { Layout } from './layout/Layout';
+import { TableDemo } from './demos/TableDemo';
+import { IconDemo } from './demos/IconDemo';
+import { ButtonDemo } from './demos/ButtonDemo';
+import { DescriptionListDemo } from './demos/DescriptionListDemo';
+import { FieldGroupDemo } from './demos/FieldGroupDemo';
+import { ListDemo } from './demos/ListDemo';
 
 function App() {
-    return (
-        <Layout>
-            <div>
-                <TableDemo />
+  return (
+    <Layout>
+      <div>
+        <TableDemo />
 
-                <IconDemo />
+        <IconDemo />
 
-                <ButtonDemo />
+        <ButtonDemo />
 
-                <DescriptionListDemo />
+        <DescriptionListDemo />
 
-                <FieldGroupDemo />
+        <FieldGroupDemo />
 
-                <ListDemo />
-            </div>
-        </Layout>
-    );
+        <ListDemo />
+      </div>
+    </Layout>
+  );
 }
 
 export default App;

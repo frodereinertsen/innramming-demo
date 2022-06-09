@@ -41,13 +41,16 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "prettier"
     ]
   },
   "browserslist": [
     "extends @fremtind/browserslist-config-jkl"
   ],
   "devDependencies": {
-    "@fremtind/browserslist-config-jkl": "^1.0.0"
+    "@fremtind/browserslist-config-jkl": "^1.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.2"
   }
 }

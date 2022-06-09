@@ -1,9 +1,9 @@
 html {
-  box-sizing: border-box;
-  overflow-y: auto;
-  overflow-x: hidden;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }

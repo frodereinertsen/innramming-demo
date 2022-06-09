@@ -1,15 +1,13 @@
-import Logo from './logo.png'
-import {Menu} from "../components/Menu";
+import Logo from './logo.png';
 
 export const Header = () => <header style={{
-    backgroundColor: '#002776',
-    width: '100vw',
-    display: 'flex',
-    height: '80px',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: '0 20px'
+  backgroundColor: '#002776',
+  width: '100vw',
+  display: 'flex',
+  height: '80px',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  padding: '0 20px',
 }}>
-    <img src={Logo} style={{height: "40px", pointerEvents: 'none'}} alt={"Sparebank1 logo"}/>
-    <Menu />
-</header>
+  <img src={Logo} style={{ height: '40px', pointerEvents: 'none' }} alt={'Sparebank1 logo'} />
+</header>;
