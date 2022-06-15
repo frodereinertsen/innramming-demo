@@ -7,4 +7,6 @@ const rows = [
   ['13.04.2019', '20-8382811', '010203 99887'],
 ];
 
-export const TableDemo = () => <DataTable columns={cols} rows={rows} caption='Saksliste' />;
+export const TableDemo = () => (
+  <DataTable columns={cols} rows={rows} caption="Saksliste" />
+);

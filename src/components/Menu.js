@@ -1,23 +1,22 @@
-import { Hamburger } from '@fremtind/jkl-hamburger-react';
-import '@fremtind/jkl-hamburger/hamburger.min.css';
 import './Menu.css';
-import { useState } from 'react';
+import { pages } from '../pages';
+import { ListItem, UnorderedList } from '@fremtind/jkl-list-react';
+import { Link } from 'react-router-dom';
+
+const NavLink = ({ path, title }) => (
+  <Link to={path} className="jkl-nav-link">
+    {title}
+  </Link>
+);
 
 export const Menu = () => {
-  const [menuIsOpen, setMenuIsOpen] = useState(false);
-  const toggleMenu = () => setMenuIsOpen((prevState) => !prevState);
-
   return (
-    <>
-      <Hamburger id='min-hamburger' onClick={toggleMenu} isOpen={menuIsOpen} aria-controls='min-meny'
-                 className='menu' />
-
-      <div id='min-meny' aria-labelledby='min-hamburger' role='group' hidden={!menuIsOpen}>
-        <ul>
-          <li>first</li>
-          <li>second</li>
-        </ul>
-      </div>
-    </>
+    <UnorderedList className={'sidebar-menu'}>
+      {pages.map(({ title, path }) => (
+        <ListItem key={path}>
+          <NavLink path={path} title={title} />
+        </ListItem>
+      ))}
+    </UnorderedList>
   );
 };
